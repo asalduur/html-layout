@@ -15,14 +15,14 @@
     border: solid black 5px;
 }
 
-#left {
+.left {
     display: inline-block;
     background-color: var(--color-shorthin);
     width: 3.5rem;
     height: 10rem;
 }
 
-#center {
+.center {
     display: inline-block;
     background-color: var(--color-bigwide);
     width: 25rem;
@@ -30,7 +30,7 @@
     margin: 0 3rem;
 }
 
-#right {
+.right {
     display: inline-block;
     background-color: var(--color-round);
     width: 13rem;
@@ -46,7 +46,7 @@
     border: dotted black 5px;
 
 }
-#pale-yellow {
+.pale-yellow {
     background-color: var(--color-ybox);
     width: 85vw;
     height: 13rem;
