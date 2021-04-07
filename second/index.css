@@ -1,0 +1,39 @@
+/* declaring global variables */
+:root {
+    --color-shorthin: #8a2be2;
+    --color-bigwide: #228b22;
+    --color-round: #87ceeb;
+    --color-ybox: #fffacd;
+    --color-text: #000080;
+}
+
+.first {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: .55rem;
+    border: solid black 5px;
+}
+
+#left {
+    display: inline-block;
+    background-color: var(--color-shorthin);
+    width: 3.5rem;
+    height: 10rem;
+}
+
+#center {
+    display: inline-block;
+    background-color: var(--color-bigwide);
+    width: 25rem;
+    height: 13rem;
+    margin: 0 3rem;
+}
+
+#right {
+    display: inline-block;
+    background-color: var(--color-round);
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+}
