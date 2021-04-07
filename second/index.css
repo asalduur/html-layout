@@ -37,3 +37,35 @@
     height: 13rem;
     border-radius: 50%;
 }
+
+.second {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 3rem;
+    border: dotted black 5px;
+
+}
+#pale-yellow {
+    background-color: var(--color-ybox);
+    width: 85vw;
+    height: 13rem;
+    box-shadow: 8px 10px 5px 2px #404040;
+}
+
+.last {
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    padding: 6rem;
+    justify-content: center;
+    align-items: center;
+    border: solid #cdcdcd 1px;
+    box-shadow: 5px 7px 5px -1px #cdcdcd;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-text);
+    letter-spacing: 6px;
+}
